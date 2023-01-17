@@ -1,0 +1,766 @@
+<!-- <!DOCTYPE html> -->
+<html>
+
+<head>
+  <link rel="icon" type="image/PNG" href="images/logoimg.PNG" />
+  <title>
+    Alsham BM Services</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" style="border-radius: 50%;" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper-8.4.5/package/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!--nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top d-flex flex-column  p-0 ">
+    <div class="container-fluid navBaar  px-5">
+      <a class="navbar-brand" href="#home">
+        <div class="logo">
+          <h5 style="color: #000; padding: 14px 14px 5px; display: inline-block;">
+            Alsham BM Services
+          </h5>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  mr-auto" id="navbarSupportedContent">
+        <ul class="navbar-nav   m-auto  d-flex justify-content-around align-items-center w-75">
+          <li class="nav-item px-1">
+            <a class="text-decoration-none  " id="homes" onClick="myFunction(event)" href="#home"
+              style="color: #000;">Home </a>
+          </li>
+          <li class="nav-item px-1">
+            <a class="text-decoration-none " onClick="myFunction(event)" href="#aboutUs" style="color: #000;">About</a>
+          </li>
+          <li class="nav-item px-1">
+            <a class="text-decoration-none " onClick="myFunction(event)" href="#services"
+              style="color: #000;">Services</a>
+          </li>
+          <li class="nav-item px-1">
+            <a class="text-decoration-none " onClick="myFunction(event)" href="#contact"
+              style="color: #000;">Contact</a>
+          </li>
+          <li class="nav-item px-1">
+            <a class="text-decoration-none " onClick="myFunction(event)" href="#team" style="color: #000;">Team</a>
+          </li>
+          <li class="nav-item px-1">
+            <a class="text-decoration-none " onClick="myFunction(event)" href="#clientReview"
+              style="color: #000;">Client Review</a>
+          </li>
+        </ul>
+        <ul class=" navbar-nav m-auto  d-flex justify-content-center align-items-center w-25  iconsocial">
+
+          <li class="nav-item px-1"><a target="_blank" href="https://www.facebook.com/profile.php?id=100089571429198"
+              title="Facebook"><i class="fab fa-facebook  px-2"></i></a></li>
+          <li class="nav-item px-1"><a target="_blank" href="https://www.instagram.com/alshambms/" title="Instagram"><i
+                class="fab fa-instagram  px-2"></i></a></li>
+          <li class="nav-item px-1"><a target="_blank" href="mailto:alsham7722@gmail.com"><i
+                class="fab fa-google fa-lg px-2"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </nav>
+  <!-- end of nav bar  -->
+  <!-- home section-->
+  <div class="home vh-100  position-relative mb-5" id="home">
+
+    <div id="carouselExampleControls" class="carousel slide h-100 " data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="imgSlid w-100 h-100  "> </div>
+        </div>
+        <div class="carousel-item">
+          <div class="imgSlid2 w-100 h-100 "> </div>
+        </div>
+        <div class="carousel-item">
+          <div class="imgSlid3 w-100 h-100 "> </div>
+        </div>
+        <div class="prevnext position-static bg-secondary d-flex flex-column justify-content-center  ">
+          <a class="carousel-control-prev  " href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="fixed-icons text-white">
+      <div class="settings position-fixed">
+        <i class="fas fa-cogs"></i>
+      </div>
+    </div>
+    <a href="#footer" id="aboutlink">
+      <div class="scroll position-relative "></div>
+    </a>
+  </div> <!-- end of home-->
+  <!-- start of about section  -->
+  <section id="aboutUs" class="mt-5">
+    <div class="header">
+      <div class=" container ">
+        <div class="row d-flex  justify-content-center align-items-center position-relative">
+          <h2 class="font-weight-bolder">A</h2>
+          <h3 class="position-absolute font-weight-bolder">About</h3>
+        </div>
+        <p class="text-muted text-center font-weight-bolder">Alsham Businessmen Services</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-7 col-12">
+          <div id="img1">
+            <img src="images/office1.jpeg" class="w-100" alt="office Image one" onmouseover="changeZIndex()">
+          </div>
+          <div id="img2">
+            <img src="images/office2.jpeg" class="w-100" alt="office Image two" onmouseover="changeZIndex()">
+          </div>
+        </div>
+        <div class="col-lg-5 col-12 shadow mt-md-5 mt-sm-5 mt-xs-5">
+          <div class="caption">
+            <h2>Alsham <br /> Businessmen Services</h2>
+            <p class="py-3 ">Over the past 15 years, Al Sham Business Men Services, The Government Authorized Centre,
+              has provided government service and corporate services to numerous local and international corporation.
+              Our team is dedicated to taking care of all your government paperwork and saving you time and money.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- end of about section-->
+  <!-- start of service section  -->
+  <section id="services">
+    <div class="header">
+      <div class=" container ">
+        <div class="row d-flex  justify-content-center align-items-center position-relative">
+          <h2 class="font-weight-bolder">S</h2>
+          <h3 class="position-absolute font-weight-bolder">Services</h3>
+        </div>
+        <p class="text-muted text-center font-weight-bolder pb-3 ">Alsham Businessmen Services Provide More services
+          with
+          lowest cost and fast time</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            ECONOMIC DEPARTMENT
+          </h4>
+          <p class="mt-3 " style="text-transform: capitalize !important;">
+            new and renew establishment license and services agent
+          </p>
+          <div class="iconf position-absolute">
+            <!-- <i class="fa-solid fa-star"></i> -->
+            <!-- <i class="fa fa-star fa-2x"></i> -->
+            <img src="images/economy.PNG" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+          </div>
+        </div>
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            PRO SERVICE
+          </h4>
+          <p class="mt-3 ">
+            we provide best pro service
+          </p>
+          <div class="iconf position-absolute">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+            <img src="images/pro.jpeg" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+          </div>
+        </div>
+
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            TASHEEL SERVICE
+          </h4>
+          <p class="mt-3 ">
+            we provide best rate on tasheel work
+          </p>
+          <div class="iconf position-absolute">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+            <img src="images/tasheel.PNG" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+          </div>
+        </div>
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            EMIRATES ID SERVICES
+          </h4>
+          <p class="mt-3 ">
+            dubai emirates id service
+          </p>
+          <div class="iconf position-absolute">
+            <img src="images/id.jpeg" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+          </div>
+        </div>
+
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            MEDICAL SERVICE
+          </h4>
+          <p class="mt-3 ">
+            we type all emirates medical
+          </p>
+          <div class="iconf position-absolute">
+            <img src="images/medical.jpeg" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+          </div>
+        </div>
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            LABOUR AND EMMIGRATION SERVICES
+          </h4>
+          <p class="mt-3 ">
+            we provide all type of labour and emmigration service
+          </p>
+          <div class="iconf position-absolute">
+            <img src="images/labour2.jpeg" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+          </div>
+        </div>
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            WPS SERVICE
+          </h4>
+          <p class="mt-3 ">
+            best rate and fast service on wps
+          </p>
+          <div class="iconf position-absolute">
+            <img src="images/wps.png" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+          </div>
+        </div>
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            DRIVING LICENSE RENEWAL
+          </h4>
+          <p class="mt-3 ">
+            vehicle (mulukiya) renewal and driving license
+          </p>
+          <div class="iconf position-absolute">
+            <img src="images/driving.jpeg" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+          </div>
+        </div>
+        <div class="service-item shadow col-lg-4  col-12 position-relative">
+          <h4 class="my-3">
+            FAMILY VISA SERVICES
+          </h4>
+          <p class="mt-3 ">
+            all type of family application
+          </p>
+          <div class="iconf position-absolute">
+            <!-- <i class="fa fa-users fa-2x"></i> -->
+            <img src="images/family.jpeg" style="mix-blend-mode: multiply; width: 40px; height: 40px;"
+              class="rounded-circle" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of services section  -->
+  <!-- start of contact us  -->
+  <section id="contact" class="mt-4">
+    <div class="header">
+      <div class=" container ">
+        <div class="row d-flex  justify-content-center align-items-center position-relative">
+          <h2 class="font-weight-bolder">C</h2>
+          <h3 class="position-absolute font-weight-bolder">Contact US</h3>
+        </div>
+        <p class="text-muted text-center font-weight-bolder pb-3 ">How can we help you. get in touch</p>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="row py-2">
+        <div class="col-lg-6 col-12">
+          <div class="row">
+            <div class="col-12">
+              <div class="widget">
+                <div class="py-4">
+                  <div class="foo-icon">
+                    <i aria-hidden="true" class="fas fa-map-marked-alt"></i>
+                  </div>
+                  <div class="elementor-icon-box-content">
+                    <h6 class="elementor-icon-box-title">
+                      <span style="color: #000;">Adress</span>
+                    </h6>
+                    <p class="elementor-icon-box-description ">9C23+GWV - 34 St - Halwan Suburb - Al Yarmook - Sharjah
+                    </p>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <div class="foo-icon">
+                    <a href="tel:00971505300876">
+                      <i aria-hidden="true" class="fas fa-phone"></i> </a>
+                  </div>
+                  <div class="elementor-icon-box-content">
+                    <h6 class="elementor-icon-box-title">
+                      <a href="tel:00971505300876" style="color: #000;">Phone</a>
+                    </h6>
+                    <p class="elementor-icon-box-description ">00971-505300876</p>
+                    <p class="elementor-icon-box-description ">00971-65223856</p>
+                    <p class="elementor-icon-box-description ">
+                      00971-507160245</p>
+                  </div>
+                </div>
+                <div class="py-4">
+                  <div class="foo-icon">
+                    <a href="mailto:alsham7722@gmail.com">
+                      <i aria-hidden="true" class="fas fa-envelope-open-text"></i> </a>
+                  </div>
+                  <div class="elementor-icon-box-content">
+                    <h6 class="elementor-icon-box-title">
+                      <a href="mailto:alsham7722@gmail.com" style="color: #000;">E-mail</a>
+                    </h6>
+                    <p class="elementor-icon-box-description ">alsham7722@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 ">
+          <div class="map  ">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3605.594018917058!2d55.402631115012554!3d25.351400783824737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfcfe9d13ea3a4de7!2zMjXCsDIxJzA1LjAiTiA1NcKwMjQnMTcuNCJF!5e0!3m2!1sen!2sae!4v1673881157960!5m2!1sen!2sae"
+               style="border:0;" allowfullscreen="true" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of contact us  -->
+  <!-- start of swiper section  -->
+  <div class="container mt-2">
+    <div class="row ">
+      <div class="slider col-12 mt-5">
+        <!-- Swiper -->
+        <div class="swiper mySwiper" style="background-color: green  white black red;">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide"
+              style="background-image:url(images/amer.jpeg) ; background-size: contain;background-repeat: no-repeat; background-position: center center;">
+              <!-- <img src="images/amer.jpeg" class="w-100 h-100 " alt=""> -->
+            </div>
+            <div class="swiper-slide"
+              style="background-image: url(images/labour2.jpeg); background-size: contain;background-repeat: no-repeat; background-position: center center;">
+              <!-- <img src="images/labour2.jpeg" class="w-100 h-100 " alt=""> -->
+            </div>
+            <div class="swiper-slide"
+              style="background-image: url(images/tashee.jpeg); background-size: contain;background-repeat: no-repeat; background-position: center center;">
+              <!-- <img src="images/tashee.jpeg" class="w-100 h-100 " alt=""> -->
+            </div>
+            <div class="swiper-slide"
+              style="background-image:url(images/office1.jpeg) ; background-size: contain;background-repeat: no-repeat; background-position: center center;">
+              <!-- <img src="images/office1.jpeg" class="w-100 h-100 " alt=""> -->
+            </div>
+            <div class="swiper-slide"
+              style="background-image:url(images/labour1.jpeg) ; background-size: contain;background-repeat: no-repeat; background-position: center center;">
+              <!-- <img src="images/labour1.jpeg" class="w-100 h-100 " alt=""> -->
+            </div>
+            <div class="swiper-slide"
+              style="background-image: url(images/office2.jpeg); background-size: contain;background-repeat: no-repeat; background-position: center center;">
+              <!-- <img src="images/office2.jpeg" class="w-100 h-100 " alt=""> -->
+            </div>
+            <div class="swiper-slide"
+              style="background-image: url(images/id.jpeg); background-size: contain;background-repeat: no-repeat; background-position: center center;">
+              <!-- <img src="" class="w-100 h-100 " alt=""> -->
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of swiper section  -->
+  <!-- start of team section  -->
+  <section id="team" class="my-3">
+    <div class="header">
+      <div class=" container ">
+        <div class="row d-flex  justify-content-center align-items-center position-relative">
+          <h2 class="font-weight-bolder">O</h2>
+          <h3 class="position-absolute font-weight-bolder">Our Team</h3>
+        </div>
+        <p class="text-muted text-center font-weight-bolder">Alone we can do so little; together we can do so much</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="item my-3">
+            <div class="img">
+              <img src="images/mr ali.jpeg" alt="" srcset="" class="w-100 h-100">
+              <div class="overlay  d-flex align-items-center justify-content-center position-absolute">
+                <div class="overlay-about-icons">
+                  <ul class="list-unstyled d-flex">
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100089571429198"><i
+                          class="fab fa-facebook fa-lg"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a target="_blank" href="mailto:alsham7722@gmail.com"><i class="fab fa-google fa-lg"></i></a>
+                    </li>
+                    <li><a target="_blank" href="https://www.instagram.com/alshambms/"><i
+                          class="fab fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="caption px-1">
+              <h4>Abdullah Ali</h4>
+              <span>CEO</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="item my-3">
+            <div class="img">
+              <img src="images/shahbaz.jpeg" alt="" srcset="" class="w-100 h-100">
+              <div class="overlay1 d-flex align-items-center justify-content-center position-absolute">
+                <div class="overlay-about-icons">
+                  <ul class="list-unstyled d-flex">
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100089571429198"><i
+                          class="fab fa-facebook fa-lg"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a target="_blank" href="mailto:alsham7722@gmail.com"><i class="fab fa-google fa-lg"></i></a>
+                    </li>
+                    <li><a target="_blank" href="https://www.instagram.com/alshambms/"><i
+                          class="fab fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="caption px-1">
+              <h4>Shahbaz Muhammed</h4>
+              <span>Director</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="item my-3">
+            <div class="img">
+              <img src="images/shahzad.jpeg" alt="" srcset="" class="w-100 h-100">
+              <div class="overlay  d-flex align-items-center justify-content-center position-absolute">
+                <div class="overlay-about-icons">
+                  <ul class="list-unstyled d-flex">
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100089571429198"><i
+                          class="fab fa-facebook fa-lg"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a target="_blank" href="mailto:alsham7722@gmail.com"><i class="fab fa-google fa-lg"></i></a>
+                    </li>
+                    <li><a target="_blank" href="https://www.instagram.com/alshambms/"><i
+                          class="fab fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="caption px-1">
+              <h4>Shahzad</h4>
+              <span>General Manager</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="item my-3">
+            <div class="img">
+              <img src="images/farhan.jpeg" alt="" srcset="" class="w-100 h-100">
+              <div class="overlay  d-flex align-items-center justify-content-center position-absolute">
+                <div class="overlay-about-icons">
+                  <ul class="list-unstyled d-flex">
+                    <li><a target="_blank" href="https://www.facebook.com/shameerk683?mibextid=ZbWKwL"><i
+                          class="fab fa-facebook fa-lg"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/shameerk684?t=sApNKVNtReCfw9Lke31wkA&s=09"><i
+                          class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a target="_blank" href="mailto:shameerk683@gmail.com"><i class="fab fa-google fa-lg"></i></a>
+                    </li>
+                    <li><a target="_blank" href="https://instagram.com/shameer.khanss?igshid=ZDdkNTZiNTM="><i
+                          class="fab fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="caption px-1">
+              <h4>Farhan Shahab-ud-din</h4>
+              <span>Customer Service</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="item my-3">
+            <div class="img">
+              <img src="images/yasser.jpeg" alt="" srcset="" class="w-100 h-100">
+              <div class="overlay1  d-flex align-items-center justify-content-center position-absolute">
+                <div class="overlay-about-icons">
+                  <ul class="list-unstyled d-flex">
+                    <li><a target="_blank" href="https://www.facebook.com/yasir.wattoo.902?mibextid=ZbWKwL"><i
+                          class="fab fa-facebook fa-lg"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/yasir82156087?t=B0Md6dQXdbvk_PS27QZwgA&s=08"><i
+                          class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a target="_blank" href=""><i class="fab fa-google fa-lg"></i></a></li>
+                    <li><a target="_blank" href="https://instagram.com/yasir9378ali?igshid=ZDdkNTZiNTM="><i
+                          class="fab fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="caption px-1">
+              <h4>Yasser</h4>
+              <span>Customer Service</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+          <div class="item my-3">
+            <div class="img">
+              <img src="images/ahmed.jpeg" alt="" srcset="" class="w-100 h-100 ahimg">
+              <div class="overlay d-flex align-items-center justify-content-center position-absolute">
+                <div class="overlay-about-icons">
+                  <ul class="list-unstyled d-flex">
+                    <li><a target="_blank" href="https://www.facebook.com/ahmed.abdelazez.10048?mibextid=ZbWKwL"><i
+                          class="fab fa-facebook fa-lg"></i></a></li>
+                    <li><a target="_blank" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a href="mailto:ahmeeedzezo22@gmail.com"><i class="fab fa-google fa-lg"></i></a></li>
+                    <li><a target="_blank" href="https://instagram.com/abdelazez1224?igshid=ZmZhODViOGI="><i
+                          class="fab fa-instagram fa-lg"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="caption px-1">
+              <h4>Ahmed Abd el-aziz</h4>
+
+              <span>Software Engineer </span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- whats up  -->
+  <div class="whats"><a target="_blank" href="https://wa.me/+971505300876?text=Hello"><i
+        class=" fab fa-whatsapp "></i></a>
+  </div>
+  <!-- end whats up  -->
+  <!-- start of client review section  -->
+  <section id="clientReview" class="my-5 clientReview">
+    <div class="header">
+      <div class=" container ">
+        <div class="row d-flex  justify-content-center align-items-center position-relative">
+          <h2 class="font-weight-bolder">C</h2>
+          <h3 class="position-absolute font-weight-bolder">Client Review</h3>
+        </div>
+        <p class="text-muted text-center font-weight-bolder">The greatest asset of every company is a business whose
+          origin is without customers</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id="carouselExampleCaptions" class="carousel slide w-100" data-ride="carousel">
+          <div class="carousel-inner  text-center">
+            <div data-interval="3000" class="carousel-item active">
+              <a target="_blank" href="https://puredecor.ae/"><img class="rounded-circle" src="images/fadi1.PNG"
+                  alt="" /></a>
+              <div class="feedback  p-5">
+                <h5 class="mt-5">Fadi Saaidi</h5>
+                <h6 class="mt-4">HR Manager at Pure Decor</h6>
+
+                <p style="color: rgba(0, 0, 0, .7); font-size: 16px;">
+                  I recommend it guys Excellent service and I want thanks very much the beautiful team he was very
+                  professional and kind with me.
+                </p>
+              </div>
+            </div>
+            <div data-interval="3000" class="carousel-item">
+              <img class="rounded-circle" src="images/4.jpg" alt="" />
+              <div class="feedback  p-5">
+                <h5 class="mt-5">Robin Perty</h5>
+                <h6 class="mt-4">Senior Desinger</h6>
+
+                <p style="color: rgba(0, 0, 0, .7); font-size: 16px;">
+                  I recommend it guys Excellent service and I want thanks very much the beautiful team he was very
+                  professional and kind with me..
+                </p>
+              </div>
+            </div>
+            <div data-interval="3000" class="carousel-item">
+              <img class="rounded-circle" src="images/10.jpg" alt="" />
+              <div class="feedback  p-5">
+                <h5 class="mt-5">Robin Perty</h5>
+                <h6 class="mt-4">Senior Desinger</h6>
+
+                <p style="color: rgba(0, 0, 0, .7); font-size: 16px;">
+                  I recommend it guys Excellent service and I want thanks very much the beautiful team he was very
+                  professional and kind with me..
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active">
+              <img class=" w-100" src="images/fadi1.PNG" alt="" />
+            </li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1">
+              <img class=" w-100" src="images/4.jpg" alt="" />
+            </li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2">
+              <img class=" w-100" src="images/10.jpg" alt="" />
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer start  -->
+  <footer id="footer" class="my-0 py-0  position-relative">
+    <div class="footer container">
+      <div class="row">
+        <div class="col-lg-5 col-12 col-xs-12 py-3 ">
+          <div class="widget">
+            <h5 class="py-4">Contact details</h5>
+            <div>
+              <div class="foo-icon">
+                <i aria-hidden="true" class="fas fa-map-marked-alt"></i>
+              </div>
+              <div class="elementor-icon-box-content">
+                <h6 class="elementor-icon-box-title">
+                  <span>Adress</span>
+                </h6>
+                <p class="elementor-icon-box-description ">9C23+GWV - 34 St - Halwan Suburb - Al Yarmook - Sharjah</p>
+              </div>
+            </div>
+            <div>
+              <div class="foo-icon">
+                <a href="tel:00971505300876">
+                  <i aria-hidden="true" class="fas fa-phone"></i> </a>
+              </div>
+              <div class="elementor-icon-box-content">
+                <h6 class="elementor-icon-box-title">
+                  <a href="tel:00971505300876">Phone</a>
+                </h6>
+                <p class="elementor-icon-box-description ">00971-505300876</p>
+                <p class="elementor-icon-box-description ">00971-65223856</p>
+                <p class="elementor-icon-box-description ">
+                  00971-507160245</p>
+              </div>
+            </div>
+            <div>
+              <div class="foo-icon">
+                <a href="mailto:alsham7722@gmail.com">
+                  <i aria-hidden="true" class="fas fa-envelope-open-text"></i> </a>
+              </div>
+              <div class="elementor-icon-box-content">
+                <h6 class="elementor-icon-box-title">
+                  <a href="mailto:alsham7722@gmail.com">E-mail</a>
+                </h6>
+                <p class="elementor-icon-box-description ">alsham7722@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  col-12 col-xs-12 py-3 ">
+          <div class="widget">
+            <h5 class="py-4">Our Services</h5>
+            <div>
+              <p class="foo-services ">Eonomic Department</p>
+            </div>
+            <div>
+              <p class="foo-services ">Family Visa Services</p>
+            </div>
+            <div>
+              <p class="foo-services ">Emirates ID Services</p>
+            </div>
+            <div>
+              <p class="foo-services ">Labour and Emmigration Services</p>
+            </div>
+            <div>
+              <p class="foo-services ">Tasheel Services</p>
+            </div>
+            <div>
+              <p class="foo-services ">Vehicle (Mulukiya) Renewal And Driving License</p>
+            </div>
+            <div>
+              <p class="foo-services ">We Type All Emirates Medical
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3  col-12  py-3 ">
+          <div class="h-100  d-flex justify-content-between">
+            <ul class="navbar-nav  my-1  w-100 d-flex justify-content-center align-items-center">
+              <li id="foo-logo" class="nav-item px-1 w-75 ">
+                <a href="#home">
+                  <div class="logo  bg-white ">
+                    <h5 style="color: #000; padding: 14px 14px 5px; display: inline-block;">
+                      Alsham BM Services
+                    </h5>
+                  </div>
+                </a>
+              </li>
+              <li class="mt-3">
+                <h5>Follow Us on Social Media</h5>
+              </li>
+              <li class="my-1"><a class="foo-icon-social " target="_blank"
+                  href="https://www.facebook.com/profile.php?id=100089571429198"><i
+                    class="fab fa-facebook fa-lg"></i></a>
+                <a class="foo-icon-social" target="_blank" href="https://www.instagram.com/alshambms/"><i
+                    class="fab fa-instagram fa-lg"></i></a>
+                <a class="foo-icon-social" target="_blank" href="mailto:alsham7722@gmail.com"><i
+                    class="fab fa-google fa-lg "></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="copy-right col-12">
+          <p class="text-muted"> All rights reserved Alsham BM Services. Developed by : <a target="_blank"
+              href="https://www.linkedin.com/in/ahmeeed22">Ahmed</a> </p>
+        </div>
+      </div>
+    </div>
+    <a href="#home">
+      <div class="up-icon position-absolute  text-center">
+        <i class="fas fa-angle-up text-white"></i>
+      </div>
+    </a>
+  </footer>
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="swiper-8.4.5/package/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
