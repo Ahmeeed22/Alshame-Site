@@ -61,8 +61,8 @@ var swiper = new Swiper(".mySwiper", {
 
    $(window).on('load',()=>{
 
-    $("#spinner").css('backgroundColor','transparent').css('zIndex','-111111111111',function(){
-      $('boby').css('overflow','auto')
+    $("#spinner").css('backgroundColor','transparent').css('zIndex','-111111111111').promise().done(function(){
+      $('body').css('overflow','auto')
     })
    })
   //  var date=new Date().toLocaleTimeString('en-US', {
