@@ -63,8 +63,19 @@ var swiper = new Swiper(".mySwiper", {
 
     $("#spinner").css('backgroundColor','transparent').css('zIndex','-111111111111').promise().done(function(){
       $('body').css('overflow','auto')
+      wow = new WOW(
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+      }
+      )
+      wow.init();
     })
    })
+
   //  var date=new Date().toLocaleTimeString('en-US', {
   //   hour: '2-digit',
   //   minute: '2-digit',
