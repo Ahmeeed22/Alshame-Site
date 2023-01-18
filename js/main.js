@@ -48,16 +48,23 @@ var swiper = new Swiper(".mySwiper", {
     home.style.color="#f25454" ;
     window.scrollTo(0,0)
    });
-   
+   var aboutOffset=document.getElementById("aboutUs").offsetHeight;
+   console.log(aboutOffset);
    window.addEventListener("scroll",()=>{
     var navbar=document.getElementsByClassName("navBaar")[0]
-    if (document.body.scrollTop == 0) {
-      navbar.style.backgroundColor="rgba(255, 255, 255 , .5)"
-    } else {
+    if (document.body.scrollTop >= aboutOffset) {
       navbar.style.backgroundColor="#FFF"
+    } else {
+      navbar.style.backgroundColor="rgba(255, 255, 255 , .5)"
     }
    })
 
+   $(window).on('load',()=>{
+
+    $("#spinner").css('backgroundColor','transparent').css('zIndex','-111111111111',function(){
+      $('boby').css('overflow','auto')
+    })
+   })
   //  var date=new Date().toLocaleTimeString('en-US', {
   //   hour: '2-digit',
   //   minute: '2-digit',
