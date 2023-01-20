@@ -61,7 +61,7 @@ var swiper = new Swiper(".mySwiper", {
 
    $(window).on('load',()=>{
 
-    $("#spinner").css('backgroundColor','transparent').css('zIndex','-111111111111').promise().done(function(){
+    $("#spinner").css('display','none').css('zIndex','-111111111111').promise().done(function(){
       $('body').css('overflow','auto')
       wow = new WOW(
         {

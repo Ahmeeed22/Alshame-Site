@@ -16,6 +16,7 @@ body{
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
     overflow:  hidden ;
+    background-color: #fff;
 }
 /* sppiner  */
 #spinner{
@@ -287,15 +288,25 @@ body{
 .service-item{
     padding-left: 60px;
     margin: 12px 0px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition:all .5s;
+    border: none;
 }
 .service-item h4{
+    color: #000;
     margin-bottom: 12px;
     font-size: 18px;
     line-height: 32px;
     font-weight: 600;
     transition: all .5s;
 }
-.service-item h4:hover {
+.service-item:hover  {
+    border: 1px solid #f25454;
+    color: #f25454;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+.service-item:hover  h4{
     color: #f25454;
 }
 .service-item p{
