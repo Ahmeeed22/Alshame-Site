@@ -304,7 +304,7 @@ body{
 .service-item:hover  {
     border: 1px solid #f25454;
     color: #f25454;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    /* box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); */
 }
 .service-item:hover  h4{
     color: #f25454;
