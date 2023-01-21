@@ -133,7 +133,9 @@ body {
         text-align: center;
         padding: 28px 0;
     }
-
+    .caption h2 {
+        padding-top: 30px;
+    }
     /* .iconsocial{
         width: 100%;
         flex-direction: row;
@@ -329,7 +331,8 @@ body {
     border-radius: 20px;
     box-sizing: border-box;
     transition: all .5s;
-    border: none;
+    border: 1px solid transparent;
+    height: 180px;
 }
 
 .service-item h4 {
@@ -388,9 +391,9 @@ body {
 
 #img2 {
     position: absolute;
-    top: 0;
+    top: 7px;
     left: 0;
-    transform: translate(25%, 5%);
+    transform: translate(15%, -.3%);
 }
 
 #img1 img,
@@ -402,7 +405,7 @@ body {
     font-size: 32px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.8);
-    padding-top: 20px;
+    padding-top: 15px;
     line-height: 32px;
 }
 
